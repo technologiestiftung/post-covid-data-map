@@ -42,12 +42,12 @@ function getContacts(records) {
 
 function toContact(record) {
 	return {
-		organisation: record["﻿Organisation"],
-		branch: record["Branche"],
-		range: record["Wirkungsgrad (Entwickler:innen, Mitstreiter:innen, Expert:innen, mögliche Partner:innen)"],
-		website: record["Website"],
-		tags: toTags(record["Tags"]),
-		description: record["Beschreibung (short description)"],
+		organisation: record["Titel"],
+		branch: record["Kategorie"],
+		range: record["Zugänglichkeit"],
+		website: record["Link zur Datenquelle"],
+		tags: toTags(record["Schlüsselattribute_reduziert"]),
+		description: record["Beschreibung"],
 	};
 }
 
@@ -77,9 +77,7 @@ function checkAndWarnForEmptyFields(contacts) {
 
 function toTags(tags) {
 	const tagsArray = tags?.split(",") ?? [];
-	return tagsArray
-		.map((tag) => tag.trim())
-		.filter((tag) => tag !== "");
+	return tagsArray.map((tag) => tag.trim()).filter((tag) => tag !== "");
 }
 
 function getBranches(contacts) {

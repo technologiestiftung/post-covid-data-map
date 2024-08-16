@@ -16,7 +16,7 @@ export function RangeLegend() {
 					<span
 						key={range.name}
 						className="text-sr-lighter-black"
-						style={{ paddingLeft: `${paddingMapping[index]}px` }}
+						style={{ paddingLeft: `25px`, paddingTop: `75px` }}
 					>
 						{range.name}
 					</span>

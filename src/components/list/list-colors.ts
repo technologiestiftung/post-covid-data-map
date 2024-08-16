@@ -3,6 +3,8 @@ export const borderColors = [
 	"border-b-sr-greyblue-100",
 	"border-b-sr-emerald-100",
 	"border-b-sr-blue-100",
+	"border-b-sr-purple-100",
+	"border-b-sr-teal-100",
 ];
 
 export const tagColors = [
@@ -25,6 +27,8 @@ export const tagColors = [
 		"bg-sr-emerald-25",
 	],
 	["bg-sr-blue-100", "bg-sr-blue-75", "bg-sr-blue-50", "bg-sr-blue-25"],
+	["bg-sr-purple-100", "bg-sr-purple-75", "bg-sr-purple-50", "bg-sr-purple-25"],
+	["bg-sr-teal-100", "bg-sr-teal-75", "bg-sr-teal-50", "bg-sr-teal-25"],
 ];
 
 export const iconColors = [
@@ -32,4 +36,6 @@ export const iconColors = [
 	"text-sr-greyblue-100",
 	"text-sr-emerald-100",
 	"text-sr-blue-100",
+	"text-sr-purple-100",
+	"text-sr-teal-100",
 ];

@@ -1,499 +1,435 @@
 export const contacts = [
-	{
-		organisation: "CityLAB Berlin",
-		branch: "Zivilgesellschaft",
-		range: "Datenmodell",
-		website: "https://citylab-berlin.org/de/start/",
-		tags: ["Technologiestiftung Berlin"],
-		description:
-			"Das CityLAB ist ein Projekt der Senatskanzlei Berlin und wird von der Technologiestiftung Berlin betrieben. Das CityLAB entwickelt digitale Prototypen für ein lebenswertes und zukunftsfestes Berlin und begleitet die Berliner Verwaltung bei verschiedenen Innovationsvorhaben. In enger Zusammenarbeit mit der Berliner Verwaltung, Stadtgesellschaft, Wirtschaft und Wissenschaft sucht das CityLAB bedarfsgerechte Lösungen, um die öffentliche Digitalisierung im Sinne der Bürgerinnen und Bürger aktiv mitzugestalten. Das CityLAB nutzt als offener Ort die Potenziale der Digitalisierung und legt einen besonderen Fokus darauf, praxisnahe und wirkungsorientierte Ansätze zu verfolgen. ",
-	},
-	{
-		organisation: "Deborah Paluch",
-		branch: "Zivilgesellschaft",
-		range: "Datenmodell",
-		website: "https://citylab-berlin.org/de/team/",
-		tags: ["Technologiestiftung Berlin"],
-		description:
-			"Deborah Paluch ist UX Expertin und Service Designerin im CityLAB Berlin. Sie unterstützt das Projekt an einer Vielzahl von Stellen und verantwortet insbesondere die methodische Umsetzung und Aufbereitung der Stakeholder-Analyse sowie die Konzeption und Erstellung von Outreach-Materialien. ",
-	},
-	{
-		organisation: "Pauline Boos",
-		branch: "Zivilgesellschaft",
-		range: "Datenmodell",
-		website: "https://citylab-berlin.org/de/team/",
-		tags: ["Technologiestiftung Berlin"],
-		description:
-			"Pauline Boos begleitet im CityLAB verschiedene Innovationsvorhaben als Projektmanagerin. Sie unterstützt das Projekt als Projektmanagerin und inhaltlich mit verschiedenen Recherche- und Auswertungstätigkeiten. ",
-	},
-	{
-		organisation: "Benjamin Seibel",
-		branch: "Zivilgesellschaft",
-		range: "Datenmodell",
-		website: "https://citylab-berlin.org/de/team/",
-		tags: ["Technologiestiftung Berlin"],
-		description: "Benjamin Seibelhat die operative Leitung des Projekts inne. ",
-	},
-	{
-		organisation: "Markus Sperl",
-		branch: "Zivilgesellschaft",
-		range: "Expertise",
-		website: "https://citylab-berlin.org/de/team/",
-		tags: ["Technologiestiftung Berlin"],
-		description:
-			"Markus Sperl verstärkt das CityLAB im Bereich Forschung und Drittmittelprojekte. Er hat das Projekt Freemove im CityLAB koordiniert und ist Experte für die Anonymisierung von Bewegungsdaten. Wir haben seine Expertise für den Bereich Pseudonymisierung und Anonymisierung herangezogen. ",
-	},
-	{
-		organisation: "Open Data Informationsstelle ",
-		branch: "Zivilgesellschaft",
-		range: "Datenmodell",
-		website: "https://odis-berlin.de",
-		tags: ["Technologiestiftung Berlin"],
-		description:
-			"Die Odis ist ein Projekt der Technologiestiftung Berlin, gefördert von der Senatskanzlei Berlin. Ihr Ziel ist es das volle Potenzial und den Nutzen von Open Data für die Verwaltung zu erschließen und zu untersuchen, wie ein Mehrwert für die breite Stadtgesellschaft geschaffen werden kann. Sie bietet nicht nur konkrete Unterstützung in allen Belangen rund um das Thema Open Data, sondern betreibt auch grundlegende Forschung auf diesem Gebiet. Dabei steht sie im ständigen Dialog mit der Verwaltung, der Zivilgesellschaft, der Wissenschaft und der Wirtschaft. ",
-	},
-	{
-		organisation: "Lisa Stubert",
-		branch: "Zivilgesellschaft",
-		range: "Datenmodell",
-		website: "https://citylab-berlin.org/de/team/",
-		tags: ["Technologiestiftung Berlin"],
-		description:
-			"Lisa Stubert leitet den Bereich Public Data und das Projekt Open Data Informationsstelle Berlin an der Technologiestiftung Berlin. Ein Fokus ihrer Arbeit liegt auf der Konzeption und Erprobung von Prozessen und Tools zur Bereitstellung und Nutzung offener Daten. Sie unterstützt bei der Konzeption des Datenmodells.",
-	},
-	{
-		organisation: "Max Eckert",
-		branch: "Zivilgesellschaft",
-		range: "Datenmodell",
-		website: "https://citylab-berlin.org/de/team/",
-		tags: ["Technologiestiftung Berlin"],
-		description:
-			"Max Eckert ist Data Scientist im Projekt „Open Data Informationsstelle“. In seiner Rolle arbeitet er daran, eine solide Datenbasis für Anwendungen und Prototypen zu schaffen. Dabei konzentriert er sich auf die Verbesserung der Datenqualität und der Datenflüsse in Berlin und innerhalb der Berliner Verwaltung. Er koordiniert die Zusammenarbeit als Projekt Owner und arbeitet inhaltlich an der Konzeption des Datenmodells. ",
-	},
-	{
-		organisation: "Klemens Maget ",
-		branch: "Zivilgesellschaft",
-		range: "Datenmodell",
-		website: "https://citylab-berlin.org/de/team/",
-		tags: ["Technologiestiftung Berlin"],
-		description:
-			"Klemens Maget ist Wissenschaftlicher Mitarbeiter im Projekt Open Data Informationsstelle Berlin. Einer seiner Tätigkeitsschwerpunkte liegt darin gemeinsam mit verschiedenen Stakeholdern Datenschätze zu identifizieren, aufzubereiten und für eine breite Nachnutzung zu öffnen. Er unterstützt das Projekt in verschiedenen Bereichen als Researcher. ",
-	},
-	{
-		organisation: "Long COVID Deutschland",
-		branch: "Zivilgesellschaft",
-		range: "Synergien",
-		website: "https://longcoviddeutschland.org/ueber/",
-		tags: ["Stufe 2"],
-		description:
-			"Long COVID Deutschland ist eine Betroffenen-Initiative von Personen, die unter Post bzw. Long-Covid leiden und deren Angehörigen. Sie betreiben u.a. eine geschlossene Online-Selbsthilfegruppe mit ca. 10.000 Mitgliedern und sind gesundheitspolitisch tätig.",
-	},
-	{
-		organisation: "Long COVID Plattform  ",
-		branch: "Zivilgesellschaft",
-		range: "Synergien",
-		website: "https://www.long-covid-plattform.de",
-		tags: ["Stufe 2"],
-		description:
-			"Die Long COVID Plattform ist eine Initiative der Bundesarbeitsgemeinschaft Selbsthilfe. Auf der Plattform kann u.a. nach Selbsthilfegruppen in der Nähe gesucht werden. ",
-	},
-	{
-		organisation: "Bundesministerium für Gesundheit (BMG) ",
-		branch: "Politik & Verwaltung",
-		range: "Synergien",
-		website: "https://www.bundesgesundheitsministerium.de",
-		tags: ["Regulierend"],
-		description:
-			"Das BMG hat das Gesundheitsdatennutzungsgesetz (GDNG) entwickelt, welches für die Medizinforschung und den Datenaustausch im Medizinsektor Relevanz entfaltet. Das GDNG stärkt u.a. die Position des Forschungsdatenzentrums Gesundheit (FDZ Gesundheit), welches vom Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) betrieben wird und das Ziel verfolgt die Versorgungsdaten der Gesetzlichen Krankenkassen (GKV) für die Medizinforschung bereitzustellen.",
-	},
-	{
-		organisation:
-			"Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) ",
-		branch: "Politik & Verwaltung",
-		range: "Synergien",
-		website: "https://www.bfarm.de/DE/Das-BfArM/_node.html",
-		tags: [],
-		description:
-			"Selbstständige Bundesoberbehörde im Geschäftsbereich des BMG. Betreibt das Forschungsdatenzentrum Gesundheit. ",
-	},
-	{
-		organisation: "Bundesministerium des Innern und für Heimat (BMI)",
-		branch: "Politik & Verwaltung",
-		range: "Allianz",
-		website: "https://www.bmi.bund.de",
-		tags: ["Regulierend"],
-		description:
-			"Das Bundesministerium des Innern und für Heimat (BMI) ist maßgeblich an der Gründung eines neuen Dateninstituts beteiligt, das die Verfügbarkeit und Nutzung von Daten in Deutschland verbessern soll. Dieses Institut soll als zentrale Anlaufstelle für verschiedene Akteure wie Wirtschaft, Wissenschaft, Verwaltung und Zivilgesellschaft dienen, um die Datenverfügbarkeit zu fördern und sektorübergreifende Datenlösungen zu entwickeln. Im Rahmen der hier bestrittenen Post-COVID-Datenmodell-Challenge sollen wichtige Erkenntnisse für das Dateninstitut generiert werden. ",
-	},
-	{
-		organisation: "Bundeskanzleramt",
-		branch: "Politik & Verwaltung",
-		range: "Synergien",
-		website: "https://www.bundeskanzleramt.de",
-		tags: ["Regulierend", "Stufe 2"],
-		description:
-			"Das Bundeskanzleramt koordiniert die Regierungspolitik in Deutschland. Es spielte eine Rolle in der nationalen Strategie zur Bewältigung der COVID-19-Pandemie und unterstützt Forschungsinitiativen. Das Bundeskanzleramt hat einen Expert:innenrat im Zuge der COVID-19-Pandemie eingerichtet, der nun als Expertenrat Gesundheit und Resilienz fortgeführt wird. ",
-	},
-	{
-		organisation: "Kassenärztliche Bundesvereinigung (KBV)",
-		branch: "Politik & Verwaltung",
-		range: "Expertise",
-		website: "https://www.kbv.de",
-		tags: ["Datenhaltend", "Datennutzend", "Stufe 2"],
-		description:
-			"Die Kassenärztliche Bundesvereinigung (KBV) vertritt die Interessen der Vertragsärzte und -psychotherapeuten in Deutschland und betreibt ein eigenes Forschungsinstitut. Da die Kassenärzt:innen im Praxisalltag eine Vielzahl an Daten sammeln, sind sie als Datenhaltende und damit potenzielle Datenquelle ebenfalls ein relevanter Stakeholder. ",
-	},
-	{
-		organisation: "Dr. Dominik Graf von Stillfried",
-		branch: "Politik & Verwaltung",
-		range: "Expertise",
-		website: "https://www.kbv.de",
-		tags: ["Datenhaltend", "Datennutzend", "Stufe 2"],
-		description:
-			"Dr. von Stillfried ist Vorstandsvorsitzender des Forschungsinstituts der Kassenärztlichen Bundesvereinigung.",
-	},
-	{
-		organisation: "Allgemeine Ortskrankenkasse (AOK)",
-		branch: "Politik & Verwaltung",
-		range: "Expertise",
-		website:
-			"https://www.aok.de https://www.wido.de/forschung-projekte/ambulante-versorgung/analysen-zur-ambulanten-versorgung/",
-		tags: ["Datenhaltend", "Datennutzend", "Stufe 2"],
-		description:
-			"Die Allgemeine Ortskrankenkasse (AOK) ist eine der größten gesetzlichen Krankenversicherungen in Deutschland. Sie finanziert Behandlungen und unterstützt Forschungsprojekte zu Long- und Post-COVID-19. In unserem Projekt wird sie als Datenhaltende Stelle relevant. Die AOK selbst führt auf Grundlage der Krankenkassendaten Forschungen in ihrem Wissenschaftlichen Institut (WidO) durch. ",
-	},
-	{
-		organisation: "Paul-Ehrlich-Institut (PEI)",
-		branch: "Politik & Verwaltung",
-		range: "Synergien",
-		website: "https://www.pei.de",
-		tags: ["Stufe 2"],
-		description:
-			"Das Paul-Ehrlich-Institut (PEI) ist eine Bundesoberbehörde für Impfstoffe und biomedizinische Arzneimittel. Es führt Forschung zu Impfstoffen gegen COVID-19 und deren Langzeitwirkungen durch. ",
-	},
-	{
-		organisation: "Dr. Jesper Zedlitz",
-		branch: "Politik & Verwaltung",
-		range: "Expertise",
-		website:
-			"https://opendata.schleswig-holstein.de/organization/open-data-leitstelle, https://www.zedlitz.de/",
-		tags: ["Gesprächspartner:in", "Regulierend"],
-		description:
-			"Dr. Jesper Zedlitz ist für die Open-Data-Leitstelle Schleswig-Holstein tätig. Diese  ist eine zentrale Anlaufstelle für die Bereitstellung und Verwaltung offener Daten in Schleswig-Holstein. Sie koordiniert die Veröffentlichung von Daten durch öffentliche Stellen, fördert Transparenz, Innovation und Bürgerbeteiligung. Ziel ist es, Daten für die Allgemeinheit zugänglich zu machen und deren Nutzung für Wirtschaft, Wissenschaft und Zivilgesellschaft zu unterstützen. Dr. Jesper Zedlitz besitzt u.a. Expertise in den Bereichen Semantic Web und Citizen Science und ist Mitentwickler der DCAT-AP.de Spezifikation. Mit Dr. Zedlitz fand im Rahmen des Projekts ein Austausch zur Anwendung von zukunftsfähigen Metadatenstandards und Datenstandards für Datenmodelle statt.",
-	},
-	{
-		organisation: "Bundesministerium für Bildung und Forschung (BMBF)",
-		branch: "Politik & Verwaltung",
-		range: "Allianz",
-		website: "https://www.bmbf.de/bmbf/de/home/home_node.html",
-		tags: ["Regulierend"],
-		description:
-			"Das Bundesministerium für Bildung und Forschung (BMBF) ist eine Behörde der Bundesregierung Deutschlands, die für Bildung, Wissenschaft und Forschung zuständig ist. Es fördert Innovationen, unterstützt Bildungsprogramme und finanziert Forschungsprojekte. Ziel ist die Stärkung der Wettbewerbsfähigkeit Deutschlands und die Förderung von Bildungschancen für alle.",
-	},
-	{
-		organisation: "honic",
-		branch: "Wirtschaft",
-		range: "Allianz",
-		website: "https://www.honic.eu/de/#unser-ziel",
-		tags: ["Datennutzend", "Datenintermediär", "Gesprächspartner:in"],
-		description:
-			"honic ist ein Unternehmen, das eine Plattform entwickelt hat, die als Datenhaltende Stelle fungiert. Sie sammelt und verknüpft verschiedene medizinische Daten, insbesondere aus Laboren, Apotheken und Arztpraxen und stellt sie ihren Kund:innen für Auswertungen zur Verfügung. ",
-	},
-	{
-		organisation: "Dr. Henrik Matthies",
-		branch: "Wirtschaft",
-		range: "Allianz",
-		website: "https://www.honic.eu/de/#unser-ziel",
-		tags: ["Gesprächspartner:in"],
-		description: "Dr. Henrik Matthies ist Gründer und CEO von honic.",
-	},
-	{
-		organisation: "Bundesdruckerei GmbH",
-		branch: "Wirtschaft",
-		range: "Expertise",
-		website:
-			"https://www.bundesdruckerei-gmbh.de/de/loesungen/datentreuhaender#:~:text=Ein%20Datentreuhänder%20ist%20ein%20unabhängiger,wollen%2C%20sicher%20und%20gesetzeskonform%20weitergibt.",
-		tags: ["Datenintermediär", "Gesprächspartner:in"],
-		description:
-			"Die Bundesdruckerei ist ein deutsches Unternehmen, das sichere Identitäts- und Digitalisierungsprodukte herstellt, darunter Ausweisdokumente, Zertifikate und Systeme zur sicheren Datenverarbeitung. Eine der Lösungen der Bundesdruckerei ist ein Datentreuhänder, der sensible Daten verschlüsseln und weiterleiten kann, um den Datenschutz im Umgang mit medizinischen Daten gewährleisten zu können. Die Bundesdruckerei bietet seine Dienstleistung für verschiedene Projekte und Stakeholder im Bereich der Gesundheitsforschung an und arbeitet bspw. mit honic oder dem RKI zusammen. ",
-	},
-	{
-		organisation: "Jonas Kotzott",
-		branch: "Wirtschaft",
-		range: "Expertise",
-		website:
-			"https://www.bundesdruckerei-gmbh.de/de/loesungen/datentreuhaender#:~:text=Ein%20Datentreuhänder%20ist%20ein%20unabhängiger,wollen%2C%20sicher%20und%20gesetzeskonform%20weitergibt.",
-		tags: ["Datenintermediär", "Gesprächspartner:in"],
-		description:
-			"Jonas Kotzott ist Senior Public Affairs Manager bei der Bundesdruckerei. Wir haben uns mit ihm ausgetauscht, um die technischen Möglichkeiten und Limitationen des Datentreuhänders zu verstehen und eine Integration in unser Modell zu prüfen. ",
-	},
-	{
-		organisation: "D-Trust GmbH",
-		branch: "Wirtschaft",
-		range: "Expertise",
-		website: "https://www.d-trust.net/de",
-		tags: ["Datenintermediär", "Gesprächspartner:in"],
-		description:
-			"D-Trust ist ein Unternehmen der Bundesdruckerei Gruppe und betreibt den Datentreuhänder. ",
-	},
-	{
-		organisation: "Rosemarie Hinsch",
-		branch: "Wirtschaft",
-		range: "Expertise",
-		website: "https://www.d-trust.net/de",
-		tags: ["Datenintermediär", "Gesprächspartner:in"],
-		description:
-			"Rosemarie Hinsch ist Senior Sales Managerin bei D-Trust. Wir haben uns mit ihr ausgetauscht um die Möglichkeiten und Limitationen der Einbindung des Datentreuhänders zu verstehen. ",
-	},
-	{
-		organisation: "Forschungsdatenzentrum Gesundheit (FDZ) ",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Synergien",
-		website: "https://www.forschungsdatenzentrum-gesundheit.de",
-		tags: ["Datenhaltend", "Datenintermediär"],
-		description:
-			"Eigenständige Einheit betrieben vom BfArM und damit im Geschäftsbereich des BMG. Zukünftig sollen dort in sicherer Umgebung Datenanlysen von Abrechnungsdaten der Krankenkassen zu Forschungszwecken stattfinden. Ab Ende 2024 sollen dort Anträge auf Datennutzung gestellt werden können. Die Stelle richtet sich an Forscher:innen aber auch auf Bundesebene organisierte Interessenvertretungen von Betroffenen, Patient:innen und Menschen mit Behinderungen.",
-	},
-	{
-		organisation: "Charité Berlin",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Allianz",
-		website: "https://www.charite.de",
-		tags: [
-			"Datenhaltend",
-			"Datennutzend",
-			"Datenintermediär",
-			"Patient:innenversorgung",
-			"Charité",
-		],
-		description:
-			"Die Charité ist das Berliner Universitätsklinikum. Sie ist ein Großunternehmen, das dem Land Berlin gehört und vereint unter einem Dach zahlreiche Kliniken, Institute, Ambulanzen und Forschungseinrichtungen. Sie stellt die gemeinsame medizinische Fakultät der Freien Universität Berlin und der Humboldt Universität zu Berlin dar. Für unser Datenmodell ist sie von großer Bedeutung, da unser Konzept auf dem Beispielfall der Datenströme innerhalb der Charité aufbaut. ",
-	},
-	{
-		organisation: "Berlin Institute of Health at Charité",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Allianz",
-		website: "https://www.bihealth.org",
-		tags: [
-			"Datenhaltend",
-			"Datennutzend",
-			"Datenintermediär",
-			"Patient:innenversorgung",
-			"Charité",
-		],
-		description:
-			"Das Berlin Institute of Health (BIH) ist eine Wissenschaftseinrichtung für Translation und Präzisionsmedizin. Es überträgt Erkenntnisse aus der biomedizinischen Forschung in Anwendungen in der Klinik und entwickelt umgekehrt Forschungsansätze aus klinischen Beobachtungen. Die Forschungseinheit Interoperabilität fördert die Etablierung von Datenstandards innerhalb der Charité und hat bspw. die Entwicklung des GECCO-Datensatz vorangetrieben. Sie sind unsere Partner:innen im vorliegenden Projekt.",
-	},
-	{
-		organisation: "Alexander Bartschke",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Datenmodell",
-		website:
-			"https://www.bihealth.org/de/forschung/wissenschaftliche-infrastruktur/core-units/interoperabilitaet/home/team",
-		tags: ["Gesprächspartner:in", "Charité"],
-		description:
-			"\nAlexander Bartschke ist ein Wissenschaftler am Berlin Institute of Health (BIH) an der Charité. Er forscht in den Bereichen Gesundheitsdatenanalyse und digitale Gesundheit. Sein Schwerpunkt liegt auf der Nutzung und Auswertung von Gesundheitsdaten zur Förderung der medizinischen Forschung und zur Unterstützung klinischer Anwendungen.",
-	},
-	{
-		organisation: "Julian Saß",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Allianz",
-		website:
-			"https://www.bihealth.org/de/forschung/wissenschaftliche-infrastruktur/core-units/interoperabilitaet/home/team",
-		tags: ["Gesprächspartner:in", "Charité"],
-		description:
-			"\nJulian Saß ist ein Wissenschaftler und Forscher am Berlin Institute of Health (BIH) an der Charité. Er arbeitet in der Gesundheitsforschung und -datenanalyse, mit einem Fokus auf die Nutzung und Auswertung von Gesundheitsdaten für medizinische Forschung und klinische Anwendungen. Seine Arbeit umfasst Aspekte der digitalen Gesundheit, Big Data in der Medizin und personalisierte Medizin.",
-	},
-	{
-		organisation: "Sophie Klopfenstein",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Expertise",
-		website:
-			"https://medinfo.charite.de/metas/person/person/address_detail/sophie_klopfenstein/",
-		tags: ["Datennutzend", "Gesprächspartner:in", "Charité"],
-		description:
-			"Sophie Klopfenstein forscht am BIH und ist mit ihrem Projekt Teil des CollPan-Konsortium. Wir haben uns mit Sophie ausgetauscht, da sie in ihrem Forschungsprojekt ebenfalls Daten über das Forschungsdatenportal Gesundheit der MII abruft. ",
-	},
-	{
-		organisation: "Eugenia Rinaldi",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Expertise",
-		website:
-			"https://www.bihealth.org/de/forschung/wissenschaftliche-infrastruktur/core-units/interoperabilitaet/home/team/erinaldi",
-		tags: ["Datennutzend", "Gesprächspartner:in", "Charité"],
-		description:
-			"Eugenia Rinaldi ist Mitarbeiterin im Projekt ORCHESTRA. Dieses ist ein europäisches Projekt, das 2020 gestartet wurde, um die Prävention und Behandlung von SARS-CoV-2-Infektionen durch die Analyse verschiedener epidemiologischer, klinischer und genetischer Faktoren zu verbessern. Ziel ist die Erstellung einer gesamteuropäischen Kohorte von COVID-19-Patienten, wobei REDCap als Datenerfassungstool verwendet werden soll. Wir haben mit Eugenia Rinaldi gesprochen, um zu klären, ob das Projekt einen Datensatz für das Datenmodell beisteuern könnte. Aktuell ist dies nicht der Fall, in Zukunft könnten die ORCHESTRA-Daten aber eine spannende Erweiterung darstellen. ",
-	},
-	{
-		organisation: "Prof. Dr. Sylvia Thun",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Datenmodell",
-		website:
-			"https://www.bihealth.org/de/forschung/wissenschaftliche-infrastruktur/core-units/interoperabilitaet/home/team",
-		tags: [
-			"Datenintermediär",
-			"Datennutzend",
-			"Gesprächspartner:in",
-			"Charité",
-		],
-		description:
-			"Prof. Dr. Sylvia Thun ist eine renommierte Expertin auf dem Gebiet der digitalen Gesundheit und Medizinischen Informatik. Sie ist Professorin an der Charité – Universitätsmedizin Berlin und leitet dort den Bereich für eHealth und Interoperabilität am Berlin Institute of Health (BIH). Ihre Arbeit konzentriert sich auf die Standardisierung von Gesundheitsdaten und die Verbesserung der digitalen Infrastruktur im Gesundheitswesen, um eine bessere Patientenversorgung zu ermöglichen. Prof. Thun engagiert sich zudem für die Förderung von Innovationen in der Gesundheitsforschung und setzt sich für eine stärkere Vernetzung und den Austausch von Gesundheitsdaten ein.",
-	},
-	{
-		organisation: "Medizinische Datenintegrationszentrum der Charité (MeDIC)",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Allianz",
-		website: "https://medic.charite.de/ueber_uns/",
-		tags: ["Datennutzend", "Charité"],
-		description:
-			"Das MeDIC ist das Datenintegrationszentrum der Charité. Innerhalb der MII hat man sich abgestimmt, dass alle Universitätskliniken Datenintegrationszentren (DIZ) aufbauen sollen. Über diese Datenintegrationszentren werden standardisierte Datenbestände universitätsübergreifend Forschenden verfügbar gemacht. Sie werden nach dem von der MII abgestimmten Kerndatensatz standardisiert. Jedes DIZ, auch das MeDIC, verfügt über ein Use and Access Committee, das die Anträge zur Datennutzung sichtet und über die Freigabe entscheidet. Die Anträge können zentral über das deutsche Forschungsdatenportal Gesundheit eingereicht werden. ",
-	},
-	{
-		organisation: "Univ.-Prof. Dr. Fabian Prasser ",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Allianz",
-		website:
-			"https://www.bihealth.org/de/forschung/arbeitsgruppe/ag-prasser-medizininformatik",
-		tags: ["Datennutzend", "Gesprächspartner:in", "Charité"],
-		description:
-			"Fabian Prasser ist Experte auf dem Gebiet der Medizininformatik, der sich intensiv mit der Entwicklung innovativer Lösungen zur Vernetzung und Analyse großer Gesundheits- und Forschungsdatenmengen beschäftigt. Ein Schwerpunkt seiner Forschung liegt auf der Entwicklung von Methoden und Werkzeugen für den Datenschutz, insbesondere im Bereich der Anonymisierung und Pseudonymisierung. Er ist der wissenschaftliche Leiter des MeDIC der Charité.  ",
-	},
-	{
-		organisation: "Mitarbeiter:in Health Data Platform ",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Allianz",
-		website:
-			"https://www.bihealth.org/de/forschung/wissenschaftliche-infrastruktur/core-units/it",
-		tags: [
-			"Datenhaltend",
-			"Datenintermediär",
-			"Gesprächspartner:in",
-			"Charité",
-		],
-		description:
-			"Die Mitarbeiter:in der Health Data Plattform ist für die Standardisierung von Datenbeständen innerhalb der Health Data Platform zuständig. Die Health Data Plattform ist die zentrale Platform in der Charité, in der die verschiedenen Datenbestände der Kliniken und Institute zentral gesammelt und aufbereitet werden. Die Aufbereitung umfasst eine Pseudonymisierung und eine Transformierung. So werden die Daten in den FHIR-Standard überführt, damit sie dann entlang den Vorgaben der MII für (externe) Medizinforschende bereitgestellt werden können. Der Betrieb der Health Data Plattform ist ebenfalls am BIH angesiedelt. Wir haben mit der Mitarbeiterin gesprochen, um die Datenflüsse innerhalb der Universitätskliniken nachvollziehen zu können. ",
-	},
-	{
-		organisation: "Fatigue Centrum der Charité",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Allianz",
-		website: "https://cfc.charite.de",
-		tags: ["Datenhaltend", "Patient:innenversorgung", "Charité"],
-		description:
-			"Die Post-COVID-Ambulanz der Charité bietet spezialisierte medizinische Betreuung für Patienten, die unter Langzeitfolgen einer COVID-19-Infektion leiden. Im Bereich Post-COVID-Forschung arbeitet die Charité an der Untersuchung von Symptomen und möglichen Behandlungsstrategien. Gemeinsam mit der Technischen Universität Berlin wird ein ME/CFS-Register mit Biodatenbank aufgebaut. ",
-	},
-	{
-		organisation: "Prof. Dr. Med. Carmen Scheibenbogen",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Allianz",
-		website:
-			"https://cfc.charite.de/ueber_das_centrum/team_kooperationspartner/",
-		tags: [
-			"Datenhaltend",
-			"Gesprächspartner:in",
-			"Patient:innenversorgung",
-			"Charité",
-		],
-		description:
-			"Leitet das Fatigue Centrum der Charité. Trägerin des Bundesverdienstkreuzes für ihr Engagement für Menschen, die an ME/CFS leiden. ",
-	},
-	{
-		organisation: "Ralf Heyder",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Synergien",
-		website:
-			"https://num.charite.de/metas/person/person/address_detail/ralf_heyder-4/",
-		tags: ["Stufe 2", "Charité"],
-		description:
-			"Ralf Heyder ist Leiter der Stabsstelle Externe Vernetzung und Strategische Kooperationen am Berlin Institute of Health (BIH) an der Charité. In dieser Position ist er verantwortlich für die Förderung und Koordination von Kooperationen mit externen Partnern sowie für die strategische Vernetzung des Instituts. Sein Fokus liegt darauf, strategische Partnerschaften aufzubauen und die Zusammenarbeit mit nationalen und internationalen Akteuren im Bereich der Gesundheitsforschung und Innovation zu stärken.",
-	},
-	{
-		organisation: "Robert Koch-Institut (RKI)",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Synergien",
-		website: "https://www.rki.de/DE/Home/homepage_node.html",
-		tags: ["Datenhaltend", "Datennutzend", "Stufe 2"],
-		description:
-			"Das Robert Koch-Institut (RKI) ist ein Bundesinstitut im Bereich der öffentlichen Gesundheit und Infektionskrankheiten. Es führt umfassende Forschungsprojekte zu Long- und Post-COVID-19 durch, einschließlich der Analyse von Versorgungsdaten und epidemiologischen Studien. Es hat eine Datenspende-App entwickelt, durch die Daten von Wearables, wie Smartwatches, von Freiwilligen verfügbar gemacht werden können. ",
-	},
-	{
-		organisation: "Dr. Linus Grabenhenrich",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Synergien",
-		website: "http://www.grabenhenrich.de/",
-		tags: ["Stufe 2"],
-		description:
-			"Priv.-Doz. Dr. med. Linus Grabenhenrich, MD, MPH, ist ein Mediziner und Wissenschaftler am Robert Koch-Institut (RKI) in Deutschland. Er hat einen Schwerpunkt in Epidemiologie und öffentliche Gesundheit und ist in der Forschung und Lehre tätig. Seine Arbeit umfasst die Analyse von Gesundheitsdaten, die Untersuchung von Infektionskrankheiten und die Entwicklung von Strategien zur Prävention und Bekämpfung von gesundheitlichen Risiken. Zusätzlich zu seiner Tätigkeit am RKI ist er Privatdozent und hat umfangreiche Erfahrung in der medizinischen Lehre und Forschung.\n",
-	},
-	{
-		organisation: "Technische Universität München (TUM)",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Expertise",
-		website: "https://www.tum.de",
-		tags: [
-			"Datenhaltend",
-			"Datennutzend",
-			"Stufe 2",
-			"Patient:innenversorgung",
-		],
-		description:
-			"Die Technische Universität München (TUM) ist eine Universität in Deutschland mit umfangreichen Forschungsprojekten in den Bereichen Ingenieurwissenschaften, Naturwissenschaften, Lebenswissenschaften und Medizin. Die TUM erforscht insbesondere die biologischen und medizinischen Mechanismen von Post-COVID-19-Syndromen. Sie ist Mitglied im Netzwerk Universitätsmedizin und entwickelt gemeinsam mit dem Fatigue Centrum der Charité einen Register zu ME/CFS. ",
-	},
-	{
-		organisation: "Netzwerk Universitätsmedizin (NUM)",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Synergien",
-		website: "https://www.netzwerk-universitaetsmedizin.de",
-		tags: ["Regulierend", "Datennutzend", "Stufe 2"],
-		description:
-			"Das Netzwerk Universitätsmedizin (NUM) koordiniert Forschungsaktivitäten deutscher Universitätskliniken zur Bewältigung der COVID-19-Pandemie. Im Bereich Post-COVID-19 betreibt das NUM Studien zur langfristigen Gesundheitsversorgung von Betroffenen.",
-	},
-	{
-		organisation: "Medizininformatik-Initiative (MII)",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Allianz",
-		website: "https://www.medizininformatik-initiative.de",
-		tags: ["Datenintermediär", "Datennutzend", "Regulierend"],
-		description:
-			"Die Medizininformatik-Initiative (MII) fördert die Vernetzung und Nutzung von Daten aus der medizinischen Forschung und Versorgung. Sie fördert die Post-COVID-Forschung durch die Bereitstellung strukturierter Gesundheitsdaten aus verschiedenen Krankenhäusern, die für die Analyse von Langzeitfolgen genutzt werden können. Zudem erleichtert die MII den Austausch und die Verknüpfung von Daten, welche für Forschung genutzt werden können. Die Medizininformatik-Initiative hat einen Datensatz abgestimmt, dessen Kernmodule als Kerndatensatz von den Universitätskliniken erfasst werden soll. Über das Forschungsdatenportal Gesundheit kann dieser eingesehen und angefragt werden. Wir haben uns entschieden diesen Datensatz als integrales Element unseres Datenmodells zu nutzen. ",
-	},
-	{
-		organisation: "AG Data-Sharing der Medizininformatik-Initiative (MII)",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Allianz",
-		website:
-			"https://www.medizininformatik-initiative.de/de/zusammenarbeit/arbeitsgruppe-data-sharing",
-		tags: ["Datenintermediär", "Datennutzend", "Regulierend"],
-		description:
-			"Die AG Data-Sharing der MII entwickelt Strategien und Werkzeuge für den sicheren Austausch medizinischer Daten. ",
-	},
-	{
-		organisation: "AG Interoperabilität der Medizininformatik-Initiative (MII)",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Allianz",
-		website:
-			"https://www.medizininformatik-initiative.de/de/zusammenarbeit/arbeitsgruppe-interoperabilitaet",
-		tags: ["Datenintermediär", "Datennutzend", "Regulierend"],
-		description:
-			"Die AG Interoperabilität der MII arbeitet an der Verbesserung der Datenkompatibilität zwischen verschiedenen medizinischen Systemen. U. a. arbeiten sie an den Konzepten der Datenintegrationszentren (DIZ). ",
-	},
-	{
-		organisation: "Sebastian C. Semler",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Synergien",
-		website: "https://www.tmf-ev.de",
-		tags: ["Datenintermediär", "Stufe 2"],
-		description:
-			"Sebastian C. Semler ist der Geschäftsführer der TMF eV. Die TMF (Technologie- und Methodenplattform für die vernetzte medizinische Forschung) unterstützt die MII durch die Bereitstellung von IT-Infrastrukturen und Methoden. ",
-	},
-	{
-		organisation: "Prof. Dr. Felix Biessmann",
-		branch: "Medizinforschung & Wissenschaft",
-		range: "Expertise",
-		website:
-			"https://projekt.bht-berlin.de/harmonik/team/prof-dr-felix-biessmann",
-		tags: ["Datennutzend", "Gesprächspartner:in", "Charité"],
-		description:
-			"Prof. Dr. Felix Biessmann forscht an der Berliner Hochschule für Technik im Bereich Cognitive Algoritihms. Er arbeitet seit längerem an einem Projekt zur Synthetisierung von medizinischen Daten. ",
-	},
-];
+  {
+    "organisation": "7-Tage-Inzidenz der COVID-19-Fälle in Deutschland",
+    "branch": "Zeitreihen-Daten",
+    "range": "leicht zugänglich",
+    "website": "https://github.com/robert-koch-institut/COVID-19_7-Tage-Inzidenz_in_Deutschland?tab=readme-ov-file",
+    "tags": [
+      "Raum",
+      "Zeit",
+      "Alter"
+    ],
+    "description": "Im Datensatz \"7-Tage-Inzidenz der COVID-19-Fälle in Deutschland\" werden die aktuellen 7-Tage-Inzidenzen der nach den Vorgaben des Infektionsschutzgesetzes - IfSG - an das RKI übermittelten COVID-19-Fälle veröffentlicht."
+  },
+  {
+    "organisation": "SARS-CoV-2 Infektionen in Deutschland",
+    "branch": "Zeitreihen-Daten",
+    "range": "leicht zugänglich",
+    "website": "https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland_Archiv",
+    "tags": [
+      "Raum",
+      "Zeit",
+      "Alter",
+      "Geschlecht"
+    ],
+    "description": "Der vorliegende Datansatz enthält umfassende Informationen zu SARS-CoV-2-Infektionen in Deutschland, die gemäß dem Infektionsschutzgesetze (IfSG) von den Gesundheitsämtern an das Robert Koch-Institut (RKI) gemeldet wurden. Die Daten umfassen Informationen zur Anzahl der bestätigten Fälle, Todesfälle und Genesungen, aus denen sich weitere Kennzahlen im Zusammenhang mit der COVID-19-Pandemie ableiten lassen. Der Datensatz wird täglich aktualisiert und enthält detaillierte Informationen auf Landkreisebene, die nach verschiedenen Altersgruppen aufgeschlüsselt sind"
+  },
+  {
+    "organisation": "Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen",
+    "branch": "Gesundheitsstudien",
+    "range": "leicht zugänglich",
+    "website": "https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen",
+    "tags": [
+      "Raum",
+      "Geschlecht",
+      "Alter"
+    ],
+    "description": "Die vorliegende Datenveröffentlichung stellt die Ergebnisdaten des Projekts „BURDEN 2020 – Die Krankheitslast in Deutschland und seine Regionen“ (BURDEN 2020) zur Verfügung. Es wurden mit Krankenkassenroutinedaten, offiziellen Statistiken und Primärerhebungen bundesweit und regional belastbare Daten für Deutschland herangezogen. Im Ergebnis wurde durch die Nutzung der bestehenden Datenvielfalt ein konsistentes Informationssystem zu den drei Kernindikatoren years of life lost (YLL), years lived with disability (YLD) und disability-adjusted life years (DALY) geschaffen."
+  },
+  {
+    "organisation": "Inanspruchnahme von Routineimpfungen in Deutschland – Ergebnisse aus der KV-Impfsurveillance",
+    "branch": "Gesundheitsstudien",
+    "range": "leicht zugänglich",
+    "website": "https://github.com/robert-koch-institut/Inanspruchnahme_von_Routineimpfungen_in_Deutschland-Ergebnisse_aus_der_KV-Impfsurveillance",
+    "tags": [
+      "Raum",
+      "Geschlecht",
+      "Alter"
+    ],
+    "description": "Dem Robert Koch-Institut (RKI) obliegt die Aufgabe, Daten zur Inanspruchnahme von Schutzimpfungen in der Bevölkerung in Deutschland zu erheben, aufzubereiten und national wie international zu berichten.\r\nDie wichtigste Datenquelle zur Berechnung von Impfquoten stellen die vertragsärztlichen Abrechnungsdaten dar, die von den Kassenärztlichen Vereinigungen (KVen) im Rahmen der „KV-Impfsurveillance“ (KVIS) an das RKI übermittelt werden."
+  },
+  {
+    "organisation": "Gesundheit in Deutschland aktuell \r\nGEDA 2019/2020-EHIS",
+    "branch": "Gesundheitsstudien",
+    "range": "leicht zugänglich",
+    "website": "https://github.com/robert-koch-institut/Gesundheit_in_Deutschland_Aktuell",
+    "tags": [
+      "Raum",
+      "Alter",
+      "Geschlecht"
+    ],
+    "description": "Die Studie \"Gesundheit in Deutschland aktuell\" (GEDA) ist eine Querschnittbefragung der deutschsprachigen erwachsenen Wohnbevölkerung im Alter ab 15 Jahren, die regelmäßig vom Robert Koch-Institut als Komponente des bundesweiten Gesundheitsmonitorings durchgeführt wird. Ziel der GEDA-Studie ist es, aktuelle Informationen zum Gesundheitszustand, zu Einflussfaktoren der gesundheitlichen Lage und zur Nutzung des Gesundheitssystems bereitzustellen."
+  },
+  {
+    "organisation": "Hochfrequente Mental Health Surveillance",
+    "branch": "Zeitreihen-Daten",
+    "range": "mittel zugänglich",
+    "website": "https://github.com/robert-koch-institut/Hochfrequente_Mental_Health_Surveillance",
+    "tags": [
+      "Alter",
+      "Geschlecht"
+    ],
+    "description": "Im Rahmen der Mental Health Surveillance (MHS) am Robert Koch-Institut (RKI) werden für eine Auswahl an Indikatoren der psychischen Gesundheit von Erwachsenen basierend auf Surveydaten Zeitreihen bestehend aus gleitenden Drei-Monats-Schätzern und Glättungskurven berechnet. Dadurch sollen Entwicklungen in der psychischen Gesundheit der erwachsenen Bevölkerung in Deutschland mit möglichst geringem Zeitverzug beobachtet und insbesondere negative Entwicklungen frühzeitig erkannt werden. Diese hochfrequente Surveillance wurde ursprünglich vor dem Hintergrund neuer Informationsbedarfe zur Entwicklung der psychischen Gesundheit der Bevölkerung in der COVID-19-Pandemie entwickelt."
+  },
+  {
+    "organisation": "German Index of Socioeconomic Deprivation (GISD)",
+    "branch": "Demographie und sozioökonomische Daten",
+    "range": "leicht zugänglich",
+    "website": "https://github.com/robert-koch-institut/German_Index_of_Socioeconomic_Deprivation_GISD?tab=readme-ov-file",
+    "tags": [
+      "Raum"
+    ],
+    "description": "Im Datensatz \"German Index of Socioeconomic Deprivation (GISD)\" werden die Daten des gleichnamigen Indexes bereitgestellt und dokumentiert. Er dient als Maß relativer regionaler sozioökonomischer Benachteiligung. Der German Index of Socieoeoconomic Deprivation (GISD) wird seit 2017 am Robert Koch-Institut erstellt, um regionale sozioökonomische Ungleichheiten in der Gesundheit sichtbar zu machen und Ansatzpunkte zur Erklärung regionaler Unterschiede in der Gesundheit aufzeigen zu können. Die Indikatoren des GISD werden so gewählt, dass sie eine Analogie zum in der Sozialepidemiologie etablierten individuellen sozioökonomischen Status (SES) zulassen, der die Dimensionen Bildung, Beruf und Einkommen zusammenfasst."
+  },
+  {
+    "organisation": "Corona-Datenspende - Teildatensatz Vitaldaten",
+    "branch": "Gesundheitsstudien",
+    "range": "mittel zugänglich",
+    "website": "https://github.com/robert-koch-institut/Corona-Datenspende_Teildatensatz_Vitaldaten",
+    "tags": [
+      "Raum",
+      "Zeit"
+    ],
+    "description": "Die Daten von Fitnessarmbändern und Smartwatches, sogenannten Wearables, können Hinweise auf Symptome einer COVID-19 Erkrankung liefern. Mit Hilfe der Corona-Datenspende-App (CDA) konnten Bürger:innen dem Robert Koch-Institut solche Daten für wissenschaftliche Zwecke zur Verfügung stellen. Zusammen mit Informationen aus anderen Quellen, z.B. offiziellen Meldedaten zu Fallzahlen, helfen diese Daten den Wissenschaftler:innen, die Ausbreitung des Coronavirus besser zu erfassen und zu verstehen. Die Datenerhebung im Rahmen der CDA wurde zum Jahreswechsel 2022/2023 planmäßig eingestellt."
+  },
+  {
+    "organisation": "Corona-Datenspende - Teildatensatz Erleben und Verhalten in der Pandemie",
+    "branch": "Gesundheitsstudien",
+    "range": "leicht zugänglich",
+    "website": "https://github.com/robert-koch-institut/Corona-Datenspende_Teildatensatz_Erleben_und_Verhalten_in_der_Pandemie",
+    "tags": [
+      "Zeit",
+      "Alter",
+      "Geschlecht"
+    ],
+    "description": "Die Daten von Fitnessarmbändern und Smartwatches, sogenannten Wearables, können Hinweise auf Symptome einer Infektion mit COVID-19 liefern. Mit Hilfe der Corona-Datenspende-App (CDA) können Bürger:innen dem Robert Koch-Institut diese Daten zur wissenschaftlichen Auswertung zur Verfügung stellen. Zusammen mit Informationen aus anderen Quellen, z.B. offiziellen Meldedaten zu Fallzahlen, helfen diese Daten den Wissenschaftler:innen, die Ausbreitung des Coronavirus besser zu erfassen und zu verstehen."
+  },
+  {
+    "organisation": "Gesundheitsreport 2022",
+    "branch": "Gesundheitsstudien",
+    "range": "schwer zugänglich",
+    "website": "https://www.tk.de/resource/blob/2130932/3432a2d7c9f827e38b1dee99779bb826/gesundheitsreport-2022-data.pdf",
+    "tags": [
+      "Alter",
+      "Geschlecht"
+    ],
+    "description": "Der Gesundheitsreport der Techniker Krankenkasse untersucht deutschlandweit die Auswirkungen der Corona-Pandemie für Erwerbspersonen in Deutschland zum Beispiel in Bezug auf Fehlzeiten oder gesundheitliche Auswirkungen ."
+  },
+  {
+    "organisation": "Zensus 2022",
+    "branch": "Demographie und sozioökonomische Daten",
+    "range": "mittel zugänglich",
+    "website": "https://www.zensus2022.de/DE/Home/_inhalt.html",
+    "tags": [
+      "Raum"
+    ],
+    "description": "Die Volkszählung in Deutschland 2022 ist eine Bevölkerungs-, Gebäude- und Wohnungszählung (Zensus) mit Stand vom 15. Mai 2022 (Zensusstichtag), den die statistischen Ämter des Bundes und der Länder durchführten."
+  },
+  {
+    "organisation": "Parlamentsdokumentation des Deutschen Bundestags zu Post-COVID",
+    "branch": "Gesundheitsstudien",
+    "range": "schwer zugänglich",
+    "website": "https://dip.bundestag.de/suche?term=Post-COVID&f.wahlperiode=20&rows=25",
+    "tags": [],
+    "description": "Das Dokumentations- und Informationssystem für Parlamentsmaterialien (DIP) ist ein gemeinsames Informationssystem von Bundestag und Bundesrat.\r\nIn DIP wird das parlamentarische Geschehen, wie es in Drucksachen und Stenografischen Berichten (Plenarprotokollen) festgehalten wird, dokumentiert."
+  },
+  {
+    "organisation": "Post-COVID auf Social-Media-Plattformen",
+    "branch": "Demographie und sozioökonomische Daten",
+    "range": "(noch) nicht verfügbar",
+    "website": "https://www.linkedin.com/help/linkedin/answer/a526048/acceder-a-las-api-de-linkedin?lang=de-DE",
+    "tags": [],
+    "description": "Anbieter sozialer Medien wie LinkedIN, TikTok, X oder Facebook/Instagram bieten grundsätzlich die Möglichkeit über API gezielt nach Inhalten zum Beispiel im Kontext von Post-COVID zu suchen. Um auf die APIs zugreifen zu können, bedarf es einer Zugriffsanfrage."
+  },
+  {
+    "organisation": "Abwasserdaten (Viruslast im Abwasser)",
+    "branch": "Umwelt",
+    "range": "leicht zugänglich",
+    "website": "https://zenodo.org/records/12704658",
+    "tags": [
+      "Zeit",
+      "Raum"
+    ],
+    "description": "Viruslast im Abwasser (Genkopien pro Liter)"
+  },
+  {
+    "organisation": "Wetterdaten",
+    "branch": "Umwelt",
+    "range": "mittel zugänglich",
+    "website": "https://www.dwd.de/DE/leistungen/cdc/cdc_ueberblick-klimadaten.html",
+    "tags": [
+      "Raum"
+    ],
+    "description": "Temperatur, Regen, Wind, Luftfeuchtigkeit, Sonnenschein, Luftdruck,…"
+  },
+  {
+    "organisation": "Luftdaten",
+    "branch": "Umwelt",
+    "range": "mittel zugänglich",
+    "website": "https://www.umweltbundesamt.de/daten/luft/luftdaten/stationen/eJzrXpScv9BoUXHyQpNFKYmrjAyMTHQNzHUNTRaVZC4yNFqUl7pgUXHJgiUpiW5FcFkDcyA_JB9ZdXLihEW5VWyLcpObFucklpx28Fw171Wj3PHFOXnppx1Uzrk4fLKYDQAQdSvT",
+    "tags": [
+      "Raum"
+    ],
+    "description": "Feinstaubbelastung, Kohlenmonoxid, Ozon, Schwefeldioxid, Stickstoffdioxid"
+  },
+  {
+    "organisation": "Grünanlagen",
+    "branch": "Umwelt",
+    "range": "leicht zugänglich",
+    "website": "https://www-genesis.destatis.de/genesis/online?operation=find&suchanweisung_language=de&query=33111-0002",
+    "tags": [
+      "Raum"
+    ],
+    "description": "Flächennutzung in qkm (Siedlung, Industrie, Grünflachen, etc)"
+  },
+  {
+    "organisation": "Lärmkartierung",
+    "branch": "Umwelt",
+    "range": "mittel zugänglich",
+    "website": "https://datahub.uba.de/server/services/VeLa/LK/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+    "tags": [
+      "Raum"
+    ],
+    "description": "Lärmpegel in Dezibel (dB) nach der EU-Umgebungslärmrichtlinie"
+  },
+  {
+    "organisation": "Post-Covid Reha Angebote",
+    "branch": "Gesundheitsinfrastruktur",
+    "range": "mittel zugänglich",
+    "website": "https://www.klinikgruppe-drv-bund.de/DE/unsere_kliniken/post_covid_reha/post_covid_reha_node.html",
+    "tags": [
+      "Raum"
+    ],
+    "description": "Kliniken mit Angebot zur Post-COVID-Reha "
+  },
+  {
+    "organisation": "Selbsthilfegruppen/ Nachbarschaftshilfe",
+    "branch": "Gesundheitsinfrastruktur",
+    "range": "mittel zugänglich",
+    "website": "https://www.long-covid-plattform.de/selbsthilfegruppen-finden",
+    "tags": [
+      "Raum"
+    ],
+    "description": "Selbsthilfegruppen für Long/Post-Covid Betroffene"
+  },
+  {
+    "organisation": "Post-Covid Ambulanzen/Kliniken",
+    "branch": "Gesundheitsinfrastruktur",
+    "range": "mittel zugänglich",
+    "website": "https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+    "tags": [
+      "Raum"
+    ],
+    "description": "Deutschlandweite Auswahl an Kliniken, die sich auf die Diagnostik und Behandlung von Long COVID spezialisiert haben"
+  },
+  {
+    "organisation": "Auslastung von Kliniken",
+    "branch": "Gesundheitsinfrastruktur",
+    "range": "leicht zugänglich",
+    "website": "https://www.destatis.de/DE/Themen/Demographie und sozioökonomische Daten-Umwelt/Gesundheit/Krankenhaeuser/Tabellen/eckzahlen-krankenhaeuser.html",
+    "tags": [
+      "Raum"
+    ],
+    "description": "Auslastung der Krankenhäuser zusammengefasst nach Bundesländer"
+  },
+  {
+    "organisation": "Hospitalisierung ",
+    "branch": "Zeitreihen-Daten",
+    "range": "leicht zugänglich",
+    "website": "https://github.com/robert-koch-institut/COVID-SARI-Hospitalisierungsinzidenz",
+    "tags": [
+      "Alter",
+      "Zeit"
+    ],
+    "description": "Hospitalisierung wegen schweren Atemwegserkrankungen (Alle/Covid), Altersgruppen, Inzidenz"
+  },
+  {
+    "organisation": "Arztbesuche ",
+    "branch": "Zeitreihen-Daten",
+    "range": "leicht zugänglich",
+    "website": "https://github.com/robert-koch-institut/COVID-ARE-Konsultationsinzidenz",
+    "tags": [
+      "Alter",
+      "Zeit"
+    ],
+    "description": "Arztbesuche wegen schweren Atemwegserkrankungen (Alle/Covid), Altersgruppen, Inzidenz"
+  },
+  {
+    "organisation": "Intensivbettenauslastung",
+    "branch": "Zeitreihen-Daten",
+    "range": "leicht zugänglich",
+    "website": "https://github.com/robert-koch-institut/Intensivkapazitaeten_und_COVID-19-Intensivbettenbelegung_in_Deutschland",
+    "tags": [
+      "Raum"
+    ],
+    "description": "Intensivbettenbelegung (davon Covid), freie Betten, Altersgruppen"
+  },
+  {
+    "organisation": "Apotheken",
+    "branch": "Gesundheitsinfrastruktur",
+    "range": "schwer zugänglich",
+    "website": "https://openstreetbrowser.org/#map=12/52.3757/12.9886&basemap=osm-mapnik&categories=custom/894f93c60fffb1fe66883fce1ec60b17",
+    "tags": [
+      "Raum"
+    ],
+    "description": "Apotheken auf Openstreetmap"
+  },
+  {
+    "organisation": "Ärzte",
+    "branch": "Gesundheitsinfrastruktur",
+    "range": "schwer zugänglich",
+    "website": "https://openstreetbrowser.org/#custom/d32b66db830a09371ca396db4c7c6534/n11165409986&map=12/52.3757/12.9884&basemap=osm-mapnik&categories=custom/d32b66db830a09371ca396db4c7c6534",
+    "tags": [
+      "Raum"
+    ],
+    "description": "Ärzte auf Openstreetmap"
+  },
+  {
+    "organisation": "Zugang zu Gesundheitsinfrastruktur",
+    "branch": "Demographie und sozioökonomische Daten",
+    "range": "mittel zugänglich",
+    "website": "https://www.deutschlandatlas.bund.de/DE/Service/Kartensuche/kartensuche_node.html?cms_filter=UnsereGesundheitsversorgung",
+    "tags": [
+      "Raum"
+    ],
+    "description": "Erreichbarkeit von Krankenhäusern, Apotheken, Hausärzten und weitere Einrichtungen in Minuten"
+  },
+  {
+    "organisation": "Points of Interest Bundesamt für Kartografie",
+    "branch": "Gesundheitsinfrastruktur",
+    "range": "mittel zugänglich",
+    "website": "https://gdz.bkg.bund.de/index.php/default/digitale-geodaten/sonstige-geodaten/points-of-interest-open-poi-open.html",
+    "tags": [
+      "Raum"
+    ],
+    "description": "Points of Interest GeoPortal: Flughäfen, Grenzübergänge, Haltestellen, Hubschrauberlandeplätze, Kilometrierungen BAB,Seehäfen, Traumazentren"
+  },
+  {
+    "organisation": "Impfquote",
+    "branch": "Zeitreihen-Daten",
+    "range": "leicht zugänglich",
+    "website": "https://github.com/robert-koch-institut/COVID-19-Impfungen_in_Deutschland",
+    "tags": [
+      "Raum",
+      "Alter"
+    ],
+    "description": "Impfquote mit Anzahl der Auffrischimpfungen"
+  },
+  {
+    "organisation": "Geburtenrate/Gesundheit von Neugeborenen",
+    "branch": "Demographie und sozioökonomische Daten",
+    "range": "leicht zugänglich",
+    "website": "https://www.regionalstatistik.de/genesis//online?operation=table&code=12612-01-01-4&bypass=true&levelindex=0&levelid=1721220163069#abreadcrumb",
+    "tags": [
+      "Raum",
+      "Zeit"
+    ],
+    "description": "Lebendgeborene nach Landkreise und Geschlecht"
+  },
+  {
+    "organisation": "Mortalitätszahlen",
+    "branch": "Zeitreihen-Daten",
+    "range": "leicht zugänglich",
+    "website": "https://github.com/robert-koch-institut/COVID-19-Todesfaelle_in_Deutschland",
+    "tags": [
+      "Raum",
+      "Alter"
+    ],
+    "description": "Covid-Todesfälle nach Bundesländer und Altersgruppen."
+  },
+  {
+    "organisation": "Berufsunfähigkeit/Krankschreibungen",
+    "branch": "Gesundheitsstudien",
+    "range": "schwer zugänglich",
+    "website": "https://www.wido.de/fileadmin/Dateien/Dokumente/News/Pressemitteilungen/2024/wido_bgf_pm_post-covid_und_long-covid_0224.pdf",
+    "tags": [
+      "Alter",
+      "Geschlecht"
+    ],
+    "description": "Schwierige Datenlage (müsste bei jeder Versicherung angefragt werden). z.B. 1,8 Prozent (n = 126.154) aller AOK-versicherten Beschäftigten erhielten mindestens eine Krankschreibung wegen Long-Covid, Post-Covid oder wegen des chronischen Fatigue-Syndroms CFS."
+  },
+  {
+    "organisation": "Sozialhilfeempfänger:innen",
+    "branch": "Demographie und sozioökonomische Daten",
+    "range": "mittel zugänglich",
+    "website": "https://www.regionalstatistik.de/genesis//online?operation=table&code=22121-01-04-4&bypass=true&levelindex=0&levelid=1721219764333",
+    "tags": [
+      "Raum",
+      "Geschlecht",
+      "Alter"
+    ],
+    "description": "Sozialhilfeempfänger/-innen nach Geschlecht, Nationalität, Altersgruppen"
+  },
+  {
+    "organisation": "Schulabschlüsse",
+    "branch": "Demographie und sozioökonomische Daten",
+    "range": "mittel zugänglich",
+    "website": "https://www.regionalstatistik.de/genesis/online?operation=previous&levelindex=0&step=0&titel=Tabellenaufbau&levelid=1723628504713&acceptscookies=false#abreadcrumb",
+    "tags": [
+      "Raum",
+      "Geschlecht"
+    ],
+    "description": "Das Statistische Bundesamt veröffentlicht eine Statistik zu Absolvierende/Abgehende allgemeinbildender Schulen nach\r\nGeschlecht und Abschlussarten pro Schuljahr in der regionale Tiefe von Kreisen und kreisfreien Städten in Deutschland"
+  },
+  {
+    "organisation": "Zugang zu Mobilität",
+    "branch": "Demographie und sozioökonomische Daten",
+    "range": "mittel zugänglich",
+    "website": "https://www.deutschlandatlas.bund.de/DE/Karten/Wie-wir-uns-bewegen/103-Erreichbarkeit-Nahverkehr-Haltestellen.html#_9n20ged7n",
+    "tags": [
+      "Raum"
+    ],
+    "description": "Im Rahmen des Kartenangebots Deutschlandatlas wird die Erreichbarkeit von Bus- und Bahnhaltestellen als Indikator für den Zugang zu Mobilität ermittelt und auf Gemeindeebene zur Verfügung gestellt"
+  },
+  {
+    "organisation": "Zahlen zur Erwerbstätigkeit",
+    "branch": "Demographie und sozioökonomische Daten",
+    "range": "mittel zugänglich",
+    "website": "https://www.deutschlandatlas.bund.de/DE/Karten/Wie-wir-arbeiten/053-Erwerbstaetige.html",
+    "tags": [
+      "Raum"
+    ],
+    "description": "Im Rahmen des Kartenangebots Deutschlandatlas wird die Entwicklung der Erwerbstätigkeit in Deutschland ermittelt und auf Gemeindeebene zur Verfügung gestellt."
+  },
+  {
+    "organisation": "Daten des Forschungsdatenzentrum Gesundheit ",
+    "branch": "Patientendaten",
+    "range": "(noch) nicht verfügbar",
+    "website": "https://www.forschungsdatenzentrum-gesundheit.de/",
+    "tags": [
+      "Raum",
+      "Zeit",
+      "Alter",
+      "Geschlecht",
+      "ID"
+    ],
+    "description": "Das sich im Aufbau befindliche Forschungsdatenzentrum (FDZ) Gesundheit ermöglicht die Erschließung der Abrechnungsdaten aller gesetzlich Krankenversicherten in Deutschland. Die Nutzung der Daten ist nur für bestimmte, am Allgemeinwohl orientierten Zwecken möglich und ist Forschungseinrichtungen, Krankenkassen, Verbänden, Politik und Ministerien vorbehalten. Das Ziel ist, auf Basis von Datenanalysen und der dabei gewonnenen Erkenntnisse die gesundheitliche Versorgung der Bevölkerung zu verbessern. "
+  },
+  {
+    "organisation": "Kerndatensatz der Medizinformatikinitiative ",
+    "branch": "Patientendaten",
+    "range": "mittel zugänglich",
+    "website": "https://forschen-fuer-gesundheit.de/",
+    "tags": [
+      "Raum",
+      "Zeit"
+    ],
+    "description": "Das Forschungsdatenportal Gesundheit gibt Forschenden die Möglichkeit, den MII-Kerndatensatz anzufragen, welcher die Patient:innendaten aller Universitätskliniken in einem einheitlichen Datenformat zusammenfasst."
+  },
+  {
+    "organisation": "ME/CFS-Register",
+    "branch": "Patientendaten",
+    "range": "(noch) nicht verfügbar",
+    "website": "",
+    "tags": [],
+    "description": "Das Register wird derzeit in München aufgebaut. Betroffene von ME/CFS werden auch auf Post-COVID untersucht und die Daten im Register erhoben."
+  },
+  {
+    "organisation": "Daten der Post-COVID-Ambulanz der Charité",
+    "branch": "Patientendaten",
+    "range": "schwer zugänglich",
+    "website": "",
+    "tags": [],
+    "description": "Die Post-COVID-Ambulanz der Charité behandelt Patienten, die mit Post-COVID-Symptomen in der Charité behandelt werden. Dabei werden verschiedene Daten in RedCap erhoben und für Forschung innerhalb der Charité genutzt."
+  }
+]

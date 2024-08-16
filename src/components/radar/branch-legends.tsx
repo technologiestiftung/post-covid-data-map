@@ -10,6 +10,8 @@ const underlineColors = [
 	"decoration-sr-greyblue-100",
 	"decoration-sr-emerald-100",
 	"decoration-sr-blue-100",
+	"decoration-sr-purple-100",
+	"decoration-sr-teal-100",
 ];
 
 export function BranchLegends() {

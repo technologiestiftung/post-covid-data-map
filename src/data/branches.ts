@@ -1,18 +1,26 @@
 export const branches = [
 	{
-		name: "Politik & Verwaltung",
+		name: "Zeitreihen-Daten",
 		description: "",
 	},
 	{
-		name: "Zivilgesellschaft",
+		name: "Patientendaten",
 		description: "",
 	},
 	{
-		name: "Wirtschaft",
+		name: "Gesundheitsstudien",
 		description: "",
 	},
 	{
-		name: "Medizinforschung & Wissenschaft",
+		name: "Umwelt",
+		description: "",
+	},
+	{
+		name: "Demographie und sozioökonomische Daten",
+		description: "",
+	},
+	{
+		name: "Gesundheitsinfrastruktur",
 		description: "",
 	},
 ];

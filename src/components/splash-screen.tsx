@@ -67,27 +67,25 @@ export function SplashScreen() {
 					Technologiestiftung Berlin
 				</div>
 				<h1 className="text-4xl md:text-[56px] font-semibold leading-10 pt-3 pb-1">
-					Stakeholder-Map
+					Datenlandkarte
 				</h1>
 				<h2 className="text-4xl md:text-[32px] font-semibold leading-10 pb-5 md:pb-7">
 					zum Post-COVID-Datenmodell
 				</h2>
 				<p className="text-lg md:text-[24px] md:leading-8 pb-6">
-					Die Stakeholder-Map visualisiert die im Rahmen der Challenge
-					„Post-COVID-Datenmodell“ beteiligten Projekt- und
-					Gesprächspartner:innen und relevante Akteur:innen die mit dem
+					Die Datenlandkarte visualisiert die im Rahmen der Challenge
+					„Post-COVID-Datenmodell“ identifizierten Datensätze die für das
 					konzipierten Datenmodell der Technologiestiftung Berlin und dem Berlin
-					Institute of Health at Charité Berlin in Verbindung stehen. Dabei
-					wurden Akteur:innen aus insgesamt vier verschiedenen Bereichen
-					identifiziert, die sich Anhand ihres Wirkungsgrads auf das Datenmodell
-					und ihren Schwerpunktthemen unterscheiden. Einzelne Datenpunkte können
-					mit Hilfe von Tags gefiltert und in der Listenansicht übersichtlich
-					dargestellt werden. Mit Klick auf einen Punkt, können mehr
-					Informationen über die einzelnen Organisationen oder Personen
-					abgerufen werden.
+					Institute of Health at Charité Berlin näher betrachtet wurden. Die
+					geschätzte "Zugänglichkeit" wird über die Ringe abgebildet und soll
+					eine Einschätzung darüber geben, wie leicht eine Integration dieser
+					Daten in das Datenmodell wäre. Einzelne Datenpunkte können mit Hilfe
+					von Tags gefiltert und in der Listenansicht übersichtlich dargestellt
+					werden. Mit Klick auf einen Punkt, können mehr Informationen über den
+					Datensatz abgerufen werden.
 				</p>
 				<p className="text-lg md:text-[24px] md:leading-8">
-					Die Stakeholder-Map ist eine Abwandlung des Stakeholder-Radars, des
+					Die Darstellung ist eine Abwandlung des Stakeholder-Radars, des
 					CityLAB Berlins. Es handelt sich hierbei um ein Open Source Projekt
 					dessen Code auf GitHub frei weiter verwendet werden kann.
 				</p>
